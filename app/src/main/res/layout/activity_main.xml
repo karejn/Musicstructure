@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ekzhu.musicstructure.MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/playing"
+                style="@style/buttons"
+                android:text="@string/playing" />
+
+            <Button
+                android:id="@+id/allsongs"
+                style="@style/buttons"
+                android:text="@string/songs" />
+
+            <Button
+                android:id="@+id/artist"
+                style="@style/buttons"
+                android:text="@string/artist" />
+
+            <Button
+                android:id="@+id/album"
+                style="@style/buttons"
+                android:text="@string/album" />
+
+            <Button
+                android:id="@+id/playlist"
+                style="@style/buttons"
+                android:text="@string/playlist" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

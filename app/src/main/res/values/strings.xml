@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Labels -->
+    <string name="app_name">Music structure</string>
+    <string name="playing">Now Playing</string>
+    <string name="songs">All Songs</string>
+    <string name="album">Albums</string>
+    <string name="artist">Artists</string>
+    <string name="playlist">Playlists</string>
+
+    <!-- Activity description text views -->
+    <string name="playing_description">This activity will show and play the current song.
+        \nA cover image of the playing Album/Artist
+        \nIt will be used ExoPlayer Library for implementing the MediaPlayer.
+        \nThe song name as well as the album art will be collected from the file\'s ID3 tag
+        using MediaMetaDataRetriever class.
+        \n\nIt should looks like the following screenshot.</string>
+
+    <string name="allsongs_description">This activity will initially display all
+        songs in the phone/SD card.
+        \nThere is also a search view in order to find a specific track.
+        \nOn the bottom of the screen will be a small window with currently playing song.
+        \n\nIt should looks like the following screenshot.</string>
+
+    <string name="artist_description">This activity will display a list of all artist in
+        the library.
+        \nIt will search the name of the artist (collected from the file\'s ID3 tag
+        using MediaMetaDataRetriever class) on the internet and display a picture and
+        short information about the artist.
+        \nOn the bottom of the screen will be a small window with currently playing song.
+        \n\nIt should looks like the following screenshot.</string>
+
+    <string name="album_description">This activity will display a list of all albums in
+        the library.
+        \nIt will search the name of the album (collected from the file\'s ID3 tag
+        using MediaMetaDataRetriever class) on the internet and display an album\'s logo.
+        \nOn the bottom of the screen will be a small window with currently playing song.
+        \n\nIt should looks like the following screenshot.</string>
+
+    <string name="playlist_description">Playlist Activity Screen.
+        \nIt will contain all of the user\'s existed Playlist.
+        \nOn the bottom of the screen will be a small window with currently playing song.
+        \n\nIt should looks like the following screenshot.</string>
+
+
+</resources>
